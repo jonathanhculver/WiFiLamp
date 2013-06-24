@@ -1,0 +1,20 @@
+body {
+    background-color: grey;
+}
+
+#lightbulbContainer {
+    height: 300px;
+    width: 195px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 50px;
+    background: url("/images/lightoff.png") no-repeat;
+}
+
+#lightbulbContainer.lighton {
+    background: url("/images/lighton.png") no-repeat;
+}
+
+#lightbulbContainer.lightoff {
+    background: url("/images/lightoff.png") no-repeat;
+}
